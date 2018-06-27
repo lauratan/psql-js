@@ -7,7 +7,6 @@ exports.up = function(knex, Promise) {
           table.increments('id');
         })
       ])
-  
 };
 
 exports.down = function(knex, Promise) {
